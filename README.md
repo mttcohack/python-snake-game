@@ -1,10 +1,11 @@
-# MTT CoHack Challenge : Python Snake Game
+# MTT CoHack Challenge: Python Snake Game
 
 ## Introduction
 
 The snake game is an arcade game and it has very simple logic, which is why it's any ideal example to demonstrate how to build games with [pygame](https://www.pygame.org/news), a python library to build games.
 
 ![snake-game](./media/snake_game.gif)
+*GIF by User:Ustone07, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
 
 ## Requirements
 
