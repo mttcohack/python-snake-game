@@ -40,11 +40,12 @@ This hack will help you:
 
 ### Challenge 1
 
-- The snake should move in all four directions: up, down, left, and right.
-- An image of an apple with a black background is displayed as the apple in the game instead of the white block. It has to be a 10 pixel by 10 pixel image.
-- When the snake crosses the apple, a couple of things should happen:
+- The snake should move in all four directions: up, down, left, and right. (Hint: This will be in the snake class, i.e. snake.py)
+- In order for the snake to eat the apple, a couple of things must occur:
+  - The collision must be detected. (Hint: There is a class that needs to be imported.)
   - The current apple should disappear and the new apple must be created in a different random location.
   - The length of the snake should increase by one.
+- The game should also end if the snake collides with the wall or the boundaries of the game.
 
 #### Resources
 
@@ -55,8 +56,8 @@ This hack will help you:
 
 ### [Optional] Challenge 2
 
+- An image of an apple with a black background is displayed as the apple in the game instead of the white block. It has to be a 10 pixel by 10 pixel image.
 - The game should end if the snake collides with itself.
-- The game should also end if the snake collides with the wall or the boundaries of the game.
 - Make the game more challenging by adding levels to the game, depending on the size of the snake, increase the speed of the snake!
 
 #### Resources

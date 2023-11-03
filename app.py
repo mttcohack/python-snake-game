@@ -2,7 +2,8 @@ import pygame
 import time
 
 from apple import Apple
-from game import Game
+# TO DO
+# Add relevant imports here
 from snake import Snake
 from pygame.locals import *
 from random import randint
