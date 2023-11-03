@@ -14,7 +14,7 @@ The snake game is an arcade game and it has very simple logic, which is why it's
 
 - You will need to have **git** installed in your computer, so that you can clone this repository to use the application code prepared for you.
 ```
-git clone https://github.com/mttcohack/MTTCoHack-ImageClassification.git
+git clone https://github.com/mttcohack/python-snake-game.git
 ```
 - You will need to have **python** installed in your computer.
 - You can also use your computer base environment for development, but as a best practice we can also create a python virtual environment. Navigate to your project folder and then execute this code (Be sure to replace {name-of-your-environment} with the name of your virtual environment.)
