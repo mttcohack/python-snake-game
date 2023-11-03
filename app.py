@@ -44,10 +44,10 @@ class App:
 
         # TO DO
         # does snake eat apple?
- 
-        # does snake collide with itself?
 
         # does snake collide with the wall?
+
+        # does snake collide with itself?
  
         pass
  
