@@ -22,18 +22,20 @@ class App:
         self.game = Game()
         self.snake = Snake(1) 
         self.apple = Apple(5,5)
+        self.speed = 50
  
     def on_init(self):
         pygame.init()
         self._display_surf = pygame.display.set_mode((self.windowWidth,self.windowHeight), pygame.HWSURFACE)
- 
-        pygame.display.set_caption('Pygame pythonspot.com example')
+        pygame.display.set_caption('Snake Game')
         self._running = True
 
         # TO DO
         # Do you want to change the image of the apple and snake in the game?
         self._image_surf = pygame.image.load("block.jpg").convert()
         self._apple_surf = pygame.image.load("block.jpg").convert()
+
+        self.font = pygame.font.Font("C:\Windows\Fonts\Arial.ttf",20)
  
     def on_event(self, event):
         if event.type == QUIT:
@@ -86,7 +88,7 @@ class App:
             self.on_loop()
             self.on_render()
  
-            time.sleep (50.0 / 1000.0);
+            time.sleep (self.speed/ 1000.0);
 
         self.on_cleanup()
 
