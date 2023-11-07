@@ -59,6 +59,7 @@ This hack will help you:
 - An image of an apple with a black background is displayed as the apple in the game instead of the white block. It has to be a 10 pixel by 10 pixel image.
 - The game should end if the snake collides with itself.
 - Make the game more challenging by adding levels to the game, depending on the size of the snake, increase the speed of the snake!
+- Add a scoreboard to the game.
 
 #### Resources
 
